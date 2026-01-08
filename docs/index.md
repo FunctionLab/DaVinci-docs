@@ -11,6 +11,6 @@ description: DaVinci
 
 
 ## Acknowledgement
-This website is build based on CARD’s tutorial by Dr Ying Ma.
+This website is build based on [CARD’s tutorial](https://yma-lab.github.io/CARD/) by Dr Ying Ma.
 
 
