@@ -11,7 +11,7 @@ description: DaVinci
 DaVinci is freely available at https://github.com/FunctionLab/DaVinci.
 
 
-# Example Analysis with DaVinci: [Vignette](.html)
+# Example Analysis with DaVinci: [Vignette](https://functionlab.github.io/DaVinci-docs/documentation/02_Vignette.html).
 
 
 # Citation
