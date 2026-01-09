@@ -45,5 +45,5 @@ $site-ui-masthead-color-light: {{ site.ui.masthead.color.light | default: '#fff'
 
 
 
-$base-font-size:   36px !default;
+$font-size-base: 36px;
 
