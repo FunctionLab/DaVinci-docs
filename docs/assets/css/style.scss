@@ -47,18 +47,6 @@ $site-ui-masthead-color-light: {{ site.ui.masthead.color.light | default: '#fff'
 
 html {
   font-size: 36px; // change to whatever
-
-  @include breakpoint($medium) {
-    font-size: 38px; // change to whatever
-  }
-
-  @include breakpoint($large) {
-    font-size: 40px; // change to whatever
-  }
-
-  @include breakpoint($x-large) {
-    font-size: 42px; // change to whatever
-  }
 }
 
 
