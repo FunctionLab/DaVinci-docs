@@ -7,9 +7,11 @@ description: DaVinci
 ---
 
 ### DaVinci Overview
-![placeholder](Logo.png)
 
-<img src="Logo.png" width="12">
+
+<p align = "center">
+<img src="Logo.png" width="12" />
+</p>
 
 
 DaVinci is freely available at https://github.com/FunctionLab/DaVinci.
