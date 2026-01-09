@@ -4,7 +4,7 @@ title: Installation
 description: Installation instruction
 ---
 
-# Intro: Use DaVinci
+# Install DaVinci
 
 To install the R package from GitHub, you just need to run through the following code block in R.
 
@@ -12,7 +12,7 @@ To install the R package from GitHub, you just need to run through the following
 remotes::install_github("FunctionLab/DaVinci")
 ```
 
-## If the installation is not successful
+### If the installation is not successful
 You can download the the repo to `working_directory` and use the following code block to inlcude all DaVinci functions in your working environment.
  ```
  library(Rcpp)
@@ -31,13 +31,13 @@ You can download the the repo to `working_directory` and use the following code 
 
 # Platform-specific instructions on installing R
 
-## Linux
+### Linux
 1. Install the latest version of R (>=4.0.0)
 2. Install `remotes` in R.
 3. Install `DaVinci` from `GitHub`.
 
 
-## Windows
+### Windows
 1. Install the latest version of R (>=4.0.0)
 2. Install Rtools from `https://cran.r-project.org/bin/windows/Rtools/`. Be sure to select a version that matches your installed R version.
 3. Create a text file named `.Renviron` under the folder `This PC/Documents/` with the following content.<br>
@@ -50,7 +50,7 @@ You can download the the repo to `working_directory` and use the following code 
 
 
 
-## Mac (ARM chip)
+### Mac (ARM chip)
 To be updated.
 
 

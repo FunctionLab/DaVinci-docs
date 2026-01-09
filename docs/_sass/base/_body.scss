@@ -1,0 +1,19 @@
+body {
+    @include themer(background-color, (
+        'dark': $background-color-dark,
+        'light': $background-color-light,
+    ));
+    @include themer(color, (
+        'dark': $color-dark,
+        'light': $color-light,
+    ));
+
+    position: relative;
+
+
+h1, h2, h3 {
+  color: #1a81c2; 
+/*   */
+}
+
+}

@@ -3,21 +3,22 @@ layout: full
 homepage: true
 disable_anchors: true
 description: DaVinci
+
 ---
 
-# DaVinci Overview
+### DaVinci Overview
 ![placeholder](Logo.png)
 
 DaVinci is freely available at https://github.com/FunctionLab/DaVinci.
 
 
-# Example Analysis with DaVinci: [Vignette](https://functionlab.github.io/DaVinci-docs/documentation/02_Vignette.html).
+### Example Analysis with DaVinci: [Vignette](https://functionlab.github.io/DaVinci-docs/documentation/02_Vignette.html).
 
 
-# Citation
+### Citation
 
 
-# Acknowledgement
+### Acknowledgement
 This website is built based on [CARD’s tutorial](https://yma-lab.github.io/CARD/) by Dr Ying Ma.
 
 

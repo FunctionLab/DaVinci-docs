@@ -4,7 +4,7 @@ title: Vignette
 description: Link to view individual tutorials in html
 ---
 
-## Tutorials
+# Tutorials
 
 Here are examples of running DaVinci under different setups.
 
