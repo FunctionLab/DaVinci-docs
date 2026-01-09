@@ -7,8 +7,10 @@ description: Link to view individual tutorials in html
 Here are the examples of running DaVinci. 
 
 ### Tutorials
+
 * [Simulations]()
 * Real data analysis
+
 |Dataset| Protocols | Modalities| Tutorials|
 | --- | --- | --- | --- |
 | Human DLPFC | Visium | RNA | [doc]() |
