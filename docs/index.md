@@ -10,7 +10,7 @@ description: DaVinci
 
 
 <p align = "center">
-<img src="Logo.png" width="12" />
+<img src="Logo.png" width="128" />
 </p>
 
 
