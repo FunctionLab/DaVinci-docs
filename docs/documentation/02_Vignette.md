@@ -14,7 +14,7 @@ Here are examples of running DaVinci under different setups.
 | Simulation | - | - | [doc](https://htmlpreview.github.io/?https://github.com/FunctionLab/DaVinci-docs/blob/main/docs/html/Simulation.html) |
 | Human DLPFC | Visium | RNA | [doc](https://htmlpreview.github.io/?https://github.com/FunctionLab/DaVinci-docs/blob/main/docs/html/DLPFC.html) |
 | Embryonic mouse brain | MISAR-seq | RNA+ATAC | [doc]() |
-| Human kidney | Visium | RNA | [doc]() |
+| Human kidney | Visium | RNA | [doc](https://htmlpreview.github.io/?https://github.com/FunctionLab/DaVinci-docs/blob/main/docs/html/KPMP.html) |
 | Adult mouse brain | DBiT-seq | RNA+ATAC | [doc](https://htmlpreview.github.io/?https://github.com/FunctionLab/DaVinci-docs/blob/main/docs/html/MouseBrain_RNA+ATAC_integration.html) |
 | Postnatal mouse brain | spatial ARP-seq | RNA+ATAC | [doc]() |
 
