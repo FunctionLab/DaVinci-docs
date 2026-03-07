@@ -12,29 +12,20 @@ To install the R package from GitHub, you just need to run through the following
 remotes::install_github("FunctionLab/DaVinci")
 ```
 
-### If the installation is not successful
-You can download the the repo to `working_directory` and use the following code block to inlcude all DaVinci functions in your working environment.
- ```
- library(Rcpp)
- library(mclust)
- 
- script.path <- "working_directory/R/"
- script.list <- list.files(script.path)
- script.list <- setdiff(script.list, c("DAVINCHI.R", "import.R", "RcppExports.R"))
- script.list <- paste0(script.path, script.list)
- sapply(script.list, source)
- 
- sourceCpp("working_directory/src/util.cpp")
- 
- ```
-
-
 # Platform-specific instructions on installing R
 
-### Linux
+### Linux (RHEL)
 1. Install the latest version of R (>=4.0.0)
 2. Install `remotes` in R.
 3. Install `DaVinci` from `GitHub`.
+* You may need to `yum install` the following packages depending on your setup:
+- git
+- blas, lapack, blas-devel, lapack-devel
+- cmake
+- udunits2-devel
+- openssl-devel
+- gdal-devel, proj-devel, geos-dev
+
 
 
 ### Windows
@@ -51,10 +42,26 @@ You can download the the repo to `working_directory` and use the following code 
 
 
 ### Mac (ARM chip)
-To be updated.
+1. Install the latest version of R (>=4.0.0)
+2. Install Xcode developer tools and GNU Fortran compiler following the [instructions](https://mac.r-project.org/tools/).
 
 
 
+# If you want to use DaVinci without installation
+You can download the the repo to your `working_directory` and use the following code block to inlcude all DaVinci functions in your working environment.
+ ```
+ library(Rcpp)
+ library(mclust)
+ 
+ script.path <- "working_directory/R/"
+ script.list <- list.files(script.path)
+ script.list <- setdiff(script.list, c("DAVINCHI.R", "import.R", "RcppExports.R"))
+ script.list <- paste0(script.path, script.list)
+ sapply(script.list, source)
+ 
+ sourceCpp("working_directory/src/util.cpp")
+ 
+ ```
 
 
 
