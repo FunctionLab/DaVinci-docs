@@ -18,6 +18,7 @@ remotes::install_github("FunctionLab/DaVinci")
 1. Install the latest version of R (>=4.0.0)
 2. Install `remotes` in R.
 3. Install `DaVinci` from `GitHub`.
+
 You may need to `yum install` the following packages depending on your setup:
 - `git`
 - `blas`, `lapack`, `blas-devel`, `lapack-devel`
