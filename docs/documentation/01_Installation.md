@@ -18,13 +18,13 @@ remotes::install_github("FunctionLab/DaVinci")
 1. Install the latest version of R (>=4.0.0)
 2. Install `remotes` in R.
 3. Install `DaVinci` from `GitHub`.
-* You may need to `yum install` the following packages depending on your setup:
-- git
-- blas, lapack, blas-devel, lapack-devel
-- cmake
-- udunits2-devel
-- openssl-devel
-- gdal-devel, proj-devel, geos-dev
+*You may need to `yum install` the following packages depending on your setup:
+- `git`
+- `blas`, `lapack`, `blas-devel`, `lapack-devel`
+- `cmake`
+- `udunits2-devel`
+- `openssl-devel`
+- `gdal-devel`, `proj-devel`, `geos-dev`
 
 
 
@@ -43,7 +43,7 @@ remotes::install_github("FunctionLab/DaVinci")
 
 ### Mac (ARM chip)
 1. Install the latest version of R (>=4.0.0)
-2. Install Xcode developer tools and GNU Fortran compiler following the [instructions](https://mac.r-project.org/tools/).
+2. Install `Xcode developer tools` and `GNU Fortran compiler` following the [instructions](https://mac.r-project.org/tools/).
 
 
 
