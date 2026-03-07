@@ -4,20 +4,17 @@ title: Installation
 description: Installation instruction
 ---
 
-# Install DaVinci
 
-To install the R package from GitHub, you just need to run through the following code block in R.
 
-```
-remotes::install_github("FunctionLab/DaVinci")
-```
-
-# Platform-specific instructions on installing R
+# Platform-specific instructions on installing DaVinci
 
 ### Linux (RHEL)
 1. Install the latest version of R (>=4.0.0)
 2. Install `remotes` in R.
-3. Install `DaVinci` from `GitHub`.
+3. Run the code below in R with `remotes` installed.
+```
+remotes::install_github("FunctionLab/DaVinci")
+```
 
 You may need to `yum install` the following packages depending on your setup:
 - `git`
@@ -37,15 +34,22 @@ You may need to `yum install` the following packages depending on your setup:
         PATH="${RTOOLS40_HOME}\usr\bin;${PATH}"
         ```
         <br>If Rtools installation is successful, `RTOOLS40_HOME` environment variable should have been automatically set up. The variable name may change as you install a different version of Rtools.
-3. Install `remotes` in R.
-4. Install `DaVinci` from `GitHub`.
+4. Install `remotes` in R.
+5. Run the code below in R with `remotes` installed.
+```
+remotes::install_github("FunctionLab/DaVinci")
+```
 
 
 
 ### Mac (ARM chip)
 1. Install the latest version of R (>=4.0.0)
 2. Install `Xcode developer tools` and `GNU Fortran compiler` following the [instructions](https://mac.r-project.org/tools/).
-
+3. Install `remotes` in R.
+4. Run the code below in R with `remotes` installed.
+```
+remotes::install_github("FunctionLab/DaVinci")
+```
 
 
 # If you want to use DaVinci without installation
